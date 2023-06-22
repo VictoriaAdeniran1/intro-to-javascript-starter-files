@@ -1,22 +1,22 @@
 // This is a comment in JavaScript
 // You can see where this file is connected to your HTML in the index.html on line 14
 
-var ageOne = 25;
-var ageTwo = 70;
-var totalAge = ageOne + ageTwo;
+let a = 25;
+const b = 70;
+let c = a + b;
 
 // Expected output 15
-console.log("Original output: " + totalAge);
+console.log("Original output: " + c);
 
-ageOne = 20;
+a = 20;
 
 // Expected output 30, but it's actually 15
 console.log("After a has been updated: " + c);
 
-totalAge = ageOne + ageTwo;
+c = a + b;
 
 // Expected output 30
-console.log("After c has been updated to use the new a: " + totalAge);
+console.log("After c has been updated to use the new a: " + c);
 
 
 
@@ -42,3 +42,11 @@ console.log("Hey," + "how are you?")
 function sayHey() {
     console.log("Hey!");
 }
+
+function conversation() {
+    sayHey();
+    console.log("How are you?");
+    console.log("Goodbye!");
+}
+
+console.log(conversation())
