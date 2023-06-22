@@ -49,4 +49,12 @@ function conversation() {
     console.log("Goodbye!");
 }
 
-console.log(conversation())
+conversation()
+
+function futureAge(name,currentAge) {
+    let futureAge = currentAge + 5;
+    console.log("Hi" + name +"! You will be" + futureAge + "in 5 years!");
+
+futureAge("Victoria", 20);
+
+}
