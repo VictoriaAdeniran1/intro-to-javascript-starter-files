@@ -53,7 +53,7 @@ console.log("Hey," + "how are you?")
 
 function futureAge(name,currentAge){
     let futureAge = currentAge + 5
-    return "Hi" + name + "! You will be" + futureAge + "in 5 years!"
+    return "Hi " + name + "! You will be " + futureAge + " in 5 years!"
 
 }
 console.log(futureAge("Victoria", 20));
@@ -64,6 +64,7 @@ console.log(futureAge("Victoria", 20));
 // console.log(sayHey("Vic"))
 
 
-// const futureAge = (name, currentAge) => "Hi" + name + "! You'll be" + futureAge + "in 5 years!";
-// currentAge = futureAge - 5;
-// console.log(futureAge("Vic", 20));
+const futureAge = (name, currentAge) => "Hi" + name + "! You'll be" + futureAge + "in 5 years!";
+let futureAge = currentAge- 5;
+
+console.log(futureAge("Vic", 20));
