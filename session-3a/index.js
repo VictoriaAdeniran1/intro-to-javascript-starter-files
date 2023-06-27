@@ -39,22 +39,31 @@ console.log("Hey," + "how are you?")
 
 // FUNCTIONS
 
-function sayHey() {
-    console.log("Hey!");
-}
+// function sayHey() {
+//     console.log("Hey!");
+// }
 
-function conversation() {
-    sayHey();
-    console.log("How are you?");
-    console.log("Goodbye!");
-}
+// function conversation() {
+//     sayHey();
+//     console.log("How are you?");
+//     console.log("Goodbye!");
+// }
 
-conversation()
+// conversation()
 
-function futureAge(name,currentAge) {
-    let futureAge = currentAge + 5;
-    console.log("Hi" + name +"! You will be" + futureAge + "in 5 years!");
+// function futureAge(name,currentAge) {
+//     let futureAge = currentAge + 5;
+//     return("Hi" + name +"! You will be" + futureAge + "in 5 years!");
 
-futureAge("Victoria", 20);
+// console.log(futureAge("Victoria", 20));
 
-}
+// }
+
+// const sayHey = name => "Hey" + name + "!";
+
+// console.log(sayHey("Vic"))
+
+
+const futureAge = (name, currentAge) => "Hi" + name + "! You'll be" + futureAge + "in 5 years!";
+futureAge = currentAge + 5
+console.log(futureAge("Vic", 20));
