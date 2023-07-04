@@ -39,6 +39,18 @@ const division = x / y;
 console.log("Division: x / y = " + division);
 
 
+const square = x **2
+
+console.log("Square: x * x = " + square)
+
+
+const addition2 = x + x + y
+
+console.log(" Adding: x + x + y = " + addition2)
+
+const multiplication2 = x * y / x
+
+console.log(" Multiplication: x * y / x = " + multiplication2)
 
 
 
