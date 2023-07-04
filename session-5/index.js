@@ -15,10 +15,13 @@ function getGrade(total_mark){
 
 
 
-    console.log("You scored " + total_mark + " therefore your grade is " + grade)
-    getGrade(91)
     
-}
+console.log("You scored " + total_mark + " therefore your grade is " + grade)
+    
+};
+
+
+getGrade(91)
 // ******************************** WHILE LOOPS **************************************
 
 
