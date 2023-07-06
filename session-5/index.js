@@ -47,7 +47,7 @@ x = 0
 
 
 while (x < 10){
-console.log(append.randomNumber);
+console.log(randomNumber);
 x += 1;
 }
 
